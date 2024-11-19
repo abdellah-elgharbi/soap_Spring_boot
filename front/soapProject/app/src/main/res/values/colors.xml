@@ -1,0 +1,18 @@
+<resources>
+    <!-- Custom Primary Color -->
+    <color name="primary_blue">#2196F3</color> <!-- Blue color for radio buttons and borders -->
+
+    <!-- Background color for the Text Input field -->
+    <color name="background_color">#FFFFFF</color>
+    <color name="white">#FFFFFF</color> <!-- White background for text input fields -->
+
+    <!-- Card Background Color for Radio Group -->
+    <color name="card_background">#FFFFFF</color> <!-- Light Blue for the radio group card background -->
+
+    <!-- Text Color for Radio Buttons and Inputs -->
+    <color name="text_color">#000000</color> <!-- Black text color -->
+
+    <!-- Border and stroke color for the input fields -->
+    <color name="primary_stroke_color">#1976D2</color>
+    <!-- Darker Blue for stroke color -->
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:cardBackgroundColor="@color/primary_blue"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp">
+
+    <RadioGroup
+        android:id="@+id/typeGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/radioCourant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:padding="12dp"
+            android:text="COURANT"
+            android:textSize="16sp"
+            app:buttonTint="@color/white" />
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/radioEpargne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="EPARGNE"
+            android:textSize="16sp"
+            app:buttonTint="@color/white" />
+    </RadioGroup>
+
+</com.google.android.material.card.MaterialCardView>
+
+
+<com.google.android.material.textfield.TextInputLayout
+android:id="@+id/tilSolde"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Solde"
+app:boxBackgroundColor="@color/primary_blue"
+    app:boxCornerRadiusBottomEnd="16dp"
+    app:boxCornerRadiusBottomStart="16dp"
+    app:boxCornerRadiusTopEnd="16dp"
+    app:boxCornerRadiusTopStart="16dp"
+    app:boxStrokeWidth="1dp"
+    app:boxStrokeColor="@color/white" />
+
+<com.google.android.material.textfield.TextInputEditText
+android:id="@+id/etSolde"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:inputType="numberDecimal"
+android:padding="16dp"
+android:textColor="@color/primary_blue" />
+
+    </LinearLayout>
